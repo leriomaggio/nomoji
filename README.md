@@ -1,5 +1,7 @@
 # emoji-numbers
-Simple and silly Python package to print numbers using Emoji digits.
+Simple and silly Python package to print integer numbers using Emoji digits.
+
+Plus there is also a fancy `GAME_DIE` to use for apps like [`dnd-roller`](https://github.com/leriomaggio/dnd-roller).
 
 This project is used as part of the PyConUS tutorial **Publishing your Python project, the conda way** 
 presented at [PyConUS](https://us.pycon.org/2023/schedule/presentation/94/) by:
