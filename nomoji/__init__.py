@@ -1,11 +1,18 @@
-__version__ = "0.0.1"
-
-KEYCAPS_DIGIT = "%d\uFE0F\u20E3"
-KEYCAPS_TEN = "\u1F51F"
+KEYCAPS_DIGITS = ["\0030\uFE0F\u20E3",
+                 "\0031\uFE0F\u20E3",
+                 "\0032\uFE0F\u20E3",
+                 "\0033\uFE0F\u20E3",
+                 "\0034\uFE0F\u20E3",
+                 "\0035\uFE0F\u20E3",
+                 "\0036\uFE0F\u20E3",
+                 "\0037\uFE0F\u20E3",
+                 "\0038\uFE0F\u20E3",
+                 "\0039\uFE0F\u20E3",
+                 "\u1F51F"
+                 ]
 GAME_DIE = "🎲"
 
-DIGITS = {n: (KEYCAPS_DIGIT % n) for n in range(10)}
-DIGITS[10] = KEYCAPS_TEN
+DIGITS = {n: KEYCAPS_DIGITS[n] for n in range(11)}
 
 
 def emojize(number: int) -> str:
