@@ -1,5 +1,6 @@
-# emoji-numbers
-Simple and silly Python package to print integer numbers using Emoji digits.
+# NoMoJi
+
+`NoMoJi` (Number-Emoji) is a simple and silly Python package to print integer numbers using Emoji digits.
 
 Plus there is also a fancy `GAME_DIE` to use for apps like [`dnd-roller`](https://github.com/leriomaggio/dnd-roller).
 
@@ -13,3 +14,22 @@ presented at [PyConUS](https://us.pycon.org/2023/schedule/presentation/94/) by:
 
 This package will be published on PyPi and it will be used solely
 to demonstrate how to add `pip` dependecies to a `conda` package.
+
+### Usage
+
+```python
+from nomoji import emojize
+
+emojize(2)
+```
+This would produce 2️⃣ (the number as keypad emoji).
+
+Similarly:
+```Python
+emojize(10)
+```
+would generate the 🔟 emoji unicode character, while:
+```Python
+emojize(24)
+```
+would result in 2️⃣4️⃣.
