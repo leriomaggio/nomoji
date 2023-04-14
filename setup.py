@@ -9,7 +9,7 @@ with open(os.path.join(CURRENT_FOLDER, "README.md"), encoding="utf-8") as f:
 setup(
     name="nomoji",
     author="Valerio Maggio",
-    version="0.0.3",
+    version="0.0.4",
     author_email="vmaggio@anaconda.com",
     description="Silly Python Package to print digits using emojis",
     long_description=long_description,
